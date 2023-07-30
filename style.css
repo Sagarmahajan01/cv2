@@ -27,8 +27,9 @@ body{
  font-size:18;
 }
 .menu1 a:hover{
+  transition: all 0.3s ease-in-out;
     color:#0a93c6;
-    transition: 0.3s;
+    /* transition: 0.3s; */
    
    
 }
