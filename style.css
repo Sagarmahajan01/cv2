@@ -187,7 +187,7 @@ body{
     text-align: center;
     padding: 25px;
     background-color: #091b29;
-    border-radius: 600px 0 0 0;
+    
   }
   .Aboutcontainer{
     height: 300px;
@@ -224,11 +224,11 @@ border-radius: 50%;
   /* Media Query for Mobile Devices */
   @media (max-width: 480px) {
     .left img{
-      height: 220px;
+      height: 190px;
       margin-left: 5px;
   }
   .hero{
-      height: 450px;
+      height: 400px;
       width: auto;
       border-radius: 0px 0px 15px 0px;
   }
@@ -244,7 +244,7 @@ border-radius: 50%;
       margin-top: 10px;
   }
   .right h2{
-      font-size: 24px;
+      font-size: 20px;
       margin-bottom: 5px;
 
      
@@ -264,11 +264,11 @@ border-radius: 50%;
   }
   .social2 img{
      height:22px;
-      padding:20;
+      padding:10;
      text-align: center;
      margin-top: 15px;
      box-shadow: none;
-     margin-left: 40px;
+     margin-left: 30px;
   }
   .herosection{
       margin-top:-30px ;
@@ -277,9 +277,13 @@ border-radius: 50%;
   .spni1{
     font-size: 40px;
   }
+  .spni{
+    font-size: 20px;
+    color: white;
+  }
  /* skill section */
  .skillSection{
-  height: 1200px;
+  height: 1220px;
   width: auto;
   
  }
@@ -319,6 +323,9 @@ border-radius: 50%;
 
   }
   .abutispn{
+    display: none;
+  }
+  .hideBtn{
     display: none;
   }
 
