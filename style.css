@@ -355,6 +355,7 @@ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
    font-size: 12px;
   }
   .aboutImg{
+    margin-top: 40px;
     height: 200px;
    
   }
@@ -386,8 +387,8 @@ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
    }  
    .projectBox{
     height: 340px;
-    width: 450px;
-    margin:35px 6px;
+    width: 400px;
+    margin:25px 6px;
    }
    .projectBox img{
     height: 180px;
