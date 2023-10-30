@@ -15,7 +15,7 @@ body{
 .hero{
     height: 600px;
     background-color:#091b29;
-    border-radius: 0px 0px 300px 0px;
+    border-radius: 0px 0px 150px 0px;
     z-index:1;
   
 }
@@ -208,13 +208,15 @@ body{
 .aboutImg{
   height: 230px;
   width: auto;
-  margin-top: -30px;
+  margin-top: -15px;
 border-radius: 50%;
+
 }
 .aboutSocial img{
   margin-left: -120px;
   margin: 15px;
   height: 40px;
+  margin-bottom: 10px 1px;
 }
 
 /* project section */
