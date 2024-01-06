@@ -85,8 +85,32 @@ nav a:hover{
 
 
 
-     /* navbar. responsive */
 
+     /* hero section */
+
+     .moving-image {
+      
+      animation: moveImage 25s linear infinite; /* Adjust the animation duration and timing function as needed */
+  }
+
+  @keyframes moveImage {
+      0% {
+          transform: translateX(0);
+      }
+
+      50% {
+          transform: translateX(15%); /* Adjust the distance you want the image to move */
+      }
+      51% {
+        transform: translate -X(14%);
+    }
+
+    100% {
+        transform: translate -X(2%); /* Adjust the distance you want the image to move */
+    }
+    }
+
+     
 .left img{
    margin-top: 70px;
   height: 400px;
