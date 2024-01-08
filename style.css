@@ -67,6 +67,7 @@ nav a:hover{
       left: 0;
       width: 100%;
       padding: 10px;
+      z-index: 100;
   }
 
   .nav-links a {
@@ -334,9 +335,10 @@ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  min-height:  600px;
+  min-height:  500px;
    margin: 0px;
    gap: 20px;
+   background-color:aliceblue;
 }
 .ContactBox h3{
   text-align: center;
@@ -348,7 +350,7 @@ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
    flex-direction: column;
    gap: 20px;
    padding: 30px;
-   background-color: white;
+   background-color:white;
    box-shadow: 1px 2px 1px 3px rgb(229, 217, 217);
 }
 .map{
@@ -679,7 +681,7 @@ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
       justify-content: space-evenly;
       flex-direction:column;
       min-height:  700px;
-       margin: 20px;
+       margin-top: 40px;
       gap: 20px;
     }
   
