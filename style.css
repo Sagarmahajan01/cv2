@@ -100,10 +100,10 @@ nav a:hover{
       }
 
       50% {
-          transform: translateX(15%); 
+          transform: translateX(11%); 
       }
       51% {
-        transform: translate -X(14%);
+        transform: translate -X(10%);
     }
 
     100% {
